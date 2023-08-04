@@ -12,8 +12,8 @@ const sayHello = (to) => {
    return {
       from: 'henryaskhenry@gmail.com',
       to: `${to}`,
-      subject: '¡Tu material teórico a sido publicado correctamente :D!',
-      text: `¡Hola!, el material que has preparado se ha guardado en HenryAsk correctamente. Recurre a la página para editarlo o eliminarlo. Puedes ingrsar a la plataforma en el siguiente link: https://henryask.vercel.app/ 🚀.`,
+      subject: '¡Estamos revisando tu feedback!',
+      text: `¡Hola! Te agradecemos por compartirnos tu feedback. En este momento, alguien de nuestro staff está revisando tus comentarios 🚀.`,
    };
 };
 
