@@ -35,6 +35,4 @@ server.use((err, req, res, next) => {
    res.status(status).send(message);
 });
 
-server.listen(3000, () => {
-   console.log('Servidor levantado');
-});
+module.exports = server;
