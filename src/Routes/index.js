@@ -7,6 +7,7 @@ const {
 router.post('/', async (req, res) => {
    try {
       const { email } = req.body;
+      console.log(email);
       transportator(sayHello(email));
       return res.json({ status: email });
    } catch (err) {
